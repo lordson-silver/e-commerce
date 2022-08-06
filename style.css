@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo>img {
+    width: 125px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav {
+    flex: 1;
+    text-align: right;
+}
+nav>ul {
+    display: inline-block;
+    list-style-type: none;
+}
+nav>ul>li {
+    display: inline-block;
+    margin-right: 20px;
+}
+a,p {
+    color: #555;
+}
+a {
+    text-decoration: none;
+}
+.cotainer {
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 25px;
+}
