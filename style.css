@@ -1,3 +1,8 @@
+:root {
+    --gradient: radial-gradient(#fff,#ffd6d6);
+    --light-orange: #ff523b;
+    --grey: #555;
+  }
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +21,7 @@ body {
     padding-left: 25px;
     padding-right: 25px; 
 }
-.logo>img {
+.logo > img {
     width: 125px;
 }
 .navbar {
@@ -28,16 +33,16 @@ nav {
     flex: 1;
     text-align: right;
 }
-nav>ul {
+nav > ul {
     display: inline-block;
     list-style-type: none;
 }
-nav>ul>li {
+nav > ul > li {
     display: inline-block;
     margin-right: 20px;
 }
 a,p {
-    color: #555;
+    color: var(--grey);
 }
 a {
     text-decoration: none;
@@ -53,18 +58,18 @@ a {
     flex-basis: 50%;
     min-width: 300px;
 }
-.col-2>img {
+.col-2 > img {
     max-width: 100%;
     padding: 50px 0;
 }
-.col-2>h1 {
+.col-2 > h1 {
     font-size: 50px;
     line-height: 60px;
     margin: 25px 0;
 }
 .btn {
     display: inline-block;
-    background: #ff523b;
+    background: var(--light-orange);
     color: #fff;
     padding: 8px 30px;
     margin: 30px 0;
@@ -75,9 +80,9 @@ a {
     background: #563434;
 }
 .header {
-    background: radial-gradient(#fff,#ffd6d6);
+    background: var(--gradient);
 }
-.header>.row {
+.header > .row {
     margin-top: 70px;
 }
 
@@ -91,7 +96,7 @@ a {
     min-width: 250px;
     margin-bottom: 30px;
 }
-.col-3>img {
+.col-3 > img {
     width: 100%;
 }
 .small-container {
@@ -110,7 +115,7 @@ a {
     margin-bottom: 50px;
     transition: transform 0.5s;
 }
-.col-4>img {
+.col-4 > img {
     width: 100%;
 }
 .title {
@@ -118,11 +123,11 @@ a {
     margin: 0 auto 90px;
     position: relative;
     line-height: 60px;
-    color: #555;
+    color: var(--grey);
 }
 .title::after {
     content: '';
-    background: #ff523b;
+    background: var(--light-orange);
     width: 80px;
     height: 5px;
     border-radius: 5px;
@@ -132,15 +137,29 @@ a {
     transform: translateX(-50%);
 }
 h4{
-    color: #555;
+    color: var(--grey);
     font-weight: normal;
 }
-.col-4>p {
+.col-4 > p {
     font-size: 14px;
 }
 .rating {
-    color: #ff523b;
+    color: var(--light-orange);
 }
 .col-4:hover {
     transform: translateY(-5px);
+}
+
+/* Offer */
+
+.offer {
+    background: var(--gradient);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+.col-2 > .offer-img {
+    padding: 50px;
+}
+small {
+    color: var(--grey);
 }
