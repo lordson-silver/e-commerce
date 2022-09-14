@@ -23,12 +23,11 @@
     <!-- font awesome -->
     <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
     <script src="https://kit.fontawesome.com/d21b9ceb52.js" crossorigin="anonymous"></script>
-    <title>RedStore</title>
+    <title>All Product - RedStore</title>
     <script src="index.js" defer></script>
 </head>
 <body>
 <!-- Header Section -->
-    <main class="header">
         <div class="container">
             <header class="navbar">
                     <div class="logo">
@@ -36,7 +35,7 @@
                     </div>
                     <nav>
                         <ul id="MenuItems">
-                            <li class="nav-link"><a href="#">Home</a></li>
+                            <li class="nav-link"><a href="index.html">Home</a></li>
                             <li class="nav-link"><a href="products.html">Product</a></li>
                             <li class="nav-link"><a href="#">About</a></li>
                             <li class="nav-link"><a href="#">Contact</a></li>
@@ -51,41 +50,71 @@
                         <span class="bar"></span>
                     </div>
             </header> 
-            <div class="row pad">
-                <div class="col-2">
-                    <h1>Give Your Workout<br />A New Style!</h1>
-                    <p>Success isn't always aboout greatness. It's about consistency. Consistent<br>hard work gains success. Greatness will come.</p>
-                    <a href="" class="btn">Explore Now &#8594;</a>
-                </div>
-                <div class="col-2">
-                    <img src="images/image1.png" alt="Image">
-                </div>
-            </div>
-        </div>
-    </main>
-
-<!-- Featured Categories -->
-    <section class="categories">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3">
-                    <img src="images/category-1.jpg" alt="">
-                </div>
-                <div class="col-3">
-                    <img src="images/category-2.jpg" alt="">
-                </div>
-                <div class="col-3">
-                    <img src="images/category-3.jpg" alt="">
-                </div>
-            </div>
         </div>
 
-    </section>
-<!-- Featured Products -->
 
     <section class="small-container">
-        <h2 class="title">Featured Products</h2>
+
+        <div class="row row-2">
+            <h2>All Product</h2>
+            <select>
+                <option value="">Default Sorting</option>
+                <option value="">Sort by price</option>
+                <option value="">Sort bt popularity</option>
+                <option value="">Sort by rating</option>
+                <option value="">Sort by sale</option>
+            </select>
+        </div>
+
         <div class="row">
+           <div class="col-4">
+                 <a href="product-details.html"><img src="images/product-1.jpg">
+                <h4>Red Printed T-Shirt</h4></a>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-2.jpg">
+                <h4>Black Sport Shoe</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-3.jpg">
+                <h4>Sweat Pants</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-4.jpg">
+                <h4>Navy-Blue Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
             <div class="col-4">
                 <img src="images/product-1.jpg">
                 <h4>Red Printed T-Shirt</h4>
@@ -134,9 +163,6 @@
                 </div>
                 <p>$50.00</p>
             </div>
-        </div>
-        <h2 class="title">Latest Products</h2>
-        <div class="row">
             <div class="col-4">
                 <img src="images/product-5.jpg">
                 <h4>Red Printed T-Shirt</h4>
@@ -236,101 +262,16 @@
                 </div>
             </div>
         </div>
-    </section>
 
-    <!-- offer -->
-
-    <section class="offer">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-2">
-                    <img src="images/exclusive.png" class="offer-img">
-                </div>
-                <div class="col-2">
-                    <p>Exclusivey Aailable on RedStore</p>
-                    <h1>Smart Band 4</h1>
-                    <small>The Mi Smart Band 4 features a 39.9% larger (than MI Band 3) AMOLED color full-touch display with adjustable brightness, so everything is clear as can be.</small><br>
-                    <a href="" class="btn">Buy Now &#8594;</a>
-                </div>
-            </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
         </div>
     </section>
-
-    <!-- testimonial secion -->
-
-    <section class="testimonial">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3">
-                    <i class="fas fa-quote-left"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit corrupti adipisci labore consequatur molestiae voluptatum illum dolores corporis distinctio assumenda!
-                    </p>
-                    <div class="rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-stroke"></i>
-                        <i class="far fa-star"></i>
-                        <i class="far fa-star"></i>
-                    </div>
-                    <img src="images/user-1.png">
-                    <h3>Anthonia Stunna</h3>
-                </div>
-                <div class="col-3">
-                    <i class="fas fa-quote-left"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit corrupti adipisci labore consequatur molestiae voluptatum illum dolores corporis distinctio assumenda!
-                    </p>
-                    <div class="rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-stroke"></i>
-                    </div>
-                    <img src="images/user-2.png">
-                    <h3>Kendrick Fin</h3>
-                </div>
-                <div class="col-3">
-                    <i class="fas fa-quote-left"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit corrupti adipisci labore consequatur molestiae voluptatum illum dolores corporis distinctio assumenda!
-                    </p>
-                    <div class="rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-stroke"></i>
-                        <i class="far fa-star"></i>
-                    </div>
-                    <img src="images/user-3.png">
-                    <h3>Macy Vera</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- brands -->
-
-    <section class="brands">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-5">
-                    <img src="images/logo-godrej.png">
-                </div>
-                <div class="col-5">
-                    <img src="images/logo-oppo.png">
-                </div>
-                <div class="col-5">
-                    <img src="images/logo-coca-cola.png">
-                </div>
-                <div class="col-5">
-                    <img src="images/logo-paypal.png">
-                </div>
-                <div class="col-5">
-                    <img src="images/logo-philips.png">
-                </div>
-            </div>
-        </div>
-    </section>
-
+ 
     <!-- ----- footer ------ -->
 
     <footer>

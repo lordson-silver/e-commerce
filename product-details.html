@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lordson Silver">
+    <meta name="description" content="Lordson Silver's E-Commerce App">
+
+    <!-- <meta property="og:image" content="https://drive.google.com/file/d/13H66gMnHEnEo2fFv4RL_H1652YLqvVOY/view?usp=sharing" /> -->
+    <meta property='og:title' content='RedStore'/>
+    <meta property='og:image' content='https://i.ibb.co/B6JV1zW/og-image.png'/>
+    <meta property='og:description' content='Lordson Silvers E-Commerce App'/>
+    <meta property='og:url' content='https://lordson-silver.github.io/e-commerce/'/>
+    <meta property='og:image:width' content='1200' />
+    <meta property='og:image:height' content='627' />
+    <!-- TYPE BELOW IS PROBABLY: 'website' or 'article' or look on https://ogp.me/#types -->
+    <meta property="og:type" content='website'/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- font awesome -->
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <script src="https://kit.fontawesome.com/d21b9ceb52.js" crossorigin="anonymous"></script>
+    <title>All Product - RedStore</title>
+    <script src="index.js" defer></script>
+</head>
+<body>
+<!-- Header Section -->
+        <div class="container">
+            <header class="navbar">
+                    <div class="logo">
+                        <img src="images/logo.png" width="125px" alt="logo">
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li class="nav-link"><a href="index.html">Home</a></li>
+                            <li class="nav-link"><a href="products.html">Product</a></li>
+                            <li class="nav-link"><a href="#">About</a></li>
+                            <li class="nav-link"><a href="#">Contact</a></li>
+                            <li class="nav-link"><a href="#">Account</a></li>
+                        </ul>
+                    </nav>
+                    <img src="images/cart.png" width="30px" height="30px" alt="cart">
+                    <!-- <img src="images/menu.png" class="menu-icon" onclick="menuToggle()"> -->
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+            </header> 
+        </div>
+
+        <!-- -------- single product section ------------ -->
+
+        <div class="small-container single-product">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/gallery-1.jpg" width="100%" id="product-img">
+
+                    <div class="small-img-row">
+                        <div class="small-img-col">
+                            <img src="images/gallery-1.jpg" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="images/gallery-2.jpg" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="images/gallery-3.jpg" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="images/gallery-4.jpg" width="100%" class="small-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <p>Home / T-Shirt</p>
+                    <h1>Red Printed T-Shirt by HRX</h1>
+                    <h4>$50.00</h4>
+                    <select>
+                        <option>Select Size</option>
+                        <option>XXL</option>
+                        <option>XL</option>
+                        <option>Large</option>
+                        <option>Medium</option>
+                        <option>Small</option>
+                    </select>
+                    <input type="number" value="1">
+                    <a href="" class="btn">Add To Cart</a>
+
+                    <h3>Product Details <i class="fas fa-indent"></i></h3>
+                    <br>
+                    <p>Give your summer wardrobe a style updgrade with the HRX Men's Active T-Shirt. Team it with a pair of shorts for your morning workout or a denims
+                        for an evening out with the guys.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- title -->
+        <div class="small-container">
+            <div class="row row-2">
+                <h2>Related Products</h2>
+                <a href="products.html"><p>View More</p></a>
+            </div>
+        </div>
+
+    <section class="small-container">
+
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-1.jpg">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-2.jpg">
+                <h4>Black Sport Shoe</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-3.jpg">
+                <h4>Sweat Pants</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-4.jpg">
+                <h4>Navy-Blue Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-stroke"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            </div>
+    </section>
+ 
+    <!-- ----- footer ------ -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>DownloadApp for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png" alt="">
+                    <p>Sustainability Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>LinkedIn</li>
+                    </ul>
+                </div>
+            </div>
+            <hr />
+            <p class="copyright">Copyright 2022 - Lordson Silver Dev</p>
+        </div>
+    </footer>
+
+    <!-- js -->
+    <!-- <script src="index.js"></script> -->
+
+   
+</body>
+</html>
+<!-- Lordson Silver Dev  -->
