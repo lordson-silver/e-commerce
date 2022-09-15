@@ -39,7 +39,7 @@
                             <li class="nav-link"><a href="products.html">Product</a></li>
                             <li class="nav-link"><a href="#">About</a></li>
                             <li class="nav-link"><a href="#">Contact</a></li>
-                            <li class="nav-link"><a href="account.html">Account</a></li>
+                            <li class="nav-link"><a href="#">Account</a></li>
                         </ul>
                     </nav>
                     <a href="cart.html"><img src="images/cart.png" width="30px" height="30px" alt="cart"></a>
@@ -51,80 +51,41 @@
             </header> 
         </div>
 
-    <!-- Cart Items Details -->
 
-        <div class="small-container cart-page">
-            <table>
-                <tr>
-                    <th>Product</th>
-                    <th>Quantity</th>
-                    <th>Subtotal</th>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="cart-info">
-                            <img src="images/buy-1.jpg">
-                            <div>
-                                <p>Red Printed T-Shirt</p>
-                                <small>Price: $60.00</small>
-                                <br>
-                                <a href="">Remove</a>
-                            </div>
-                        </div>
-                    </td>
-                    <td><input type="number" value="1"></td>
-                    <td>$60</td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="cart-info">
-                            <img src="images/buy-2.jpg">
-                            <div>
-                                <p>Super Kicks</p>
-                                <small>Price: $80.00</small>
-                                <br>
-                                <a href="">Remove</a>
-                            </div>
-                        </div>
-                    </td>
-                    <td><input type="number" value="1"></td>
-                    <td>$80</td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="cart-info">
-                            <img src="images/buy-3.jpg">
-                            <div>
-                                <p>Denim Jeans</p>
-                                <small>Price: $100.00</small>
-                                <br>
-                                <a href="">Remove</a>
-                            </div>
-                        </div>
-                    </td>
-                    <td><input type="number" value="1"></td>
-                    <td>$100</td>
-                </tr>
-            </table>
+    <!-- Account Page -->
 
-            <div class="total-price">
-                <table>
-                    <tr>
-                        <td>Subtotal</td>
-                        <td>$240.00</td>
-                    </tr>
-                    <tr>
-                        <td>Tax</td>
-                        <td>$20.00</td>
-                    </tr>
-                    <tr>
-                        <td>Total</td>
-                        <td>$260.00</td>
-                    </tr>
-                </table>
+    <div class="account-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/image1.png" width="100%">
+                </div>
+                <div class="col-2">
+                    <div class="form-container">
+                        <div class="form-btn">
+                            <span id="log">Login</span>
+                            <span id="reg">Register</span>
+                            <hr id="Indicator">
+                        </div>
+
+                        <form id="LoginForm">
+                            <input type="text" placeholder="Username">
+                            <input type="password" placeholder="Password">
+                            <button type="submit" class="btn">Login</button>
+                            <a href="">Forgot Password</a>
+                        </form> 
+
+                        <form id="RegForm">
+                            <input type="text" placeholder="Username">
+                            <input type="email" placeholder="Email">
+                            <input type="password" placeholder="Password">
+                            <button type="submit" class="btn">Register</button>
+                        </form> 
+                    </div>
+                </div>
             </div>
-
         </div>
+    </div>
 
     <!-- ----- footer ------ -->
 

@@ -12,8 +12,8 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
 }))
 
 // --------- js for product gallery ------------
-var ProductImg = document.getElementById("product-img");
-var SmallImg = document.getElementsByClassName("small-img");
+const ProductImg = document.getElementById("product-img");
+const SmallImg = document.getElementsByClassName("small-img");
 
 
 for (let i = 0; i < SmallImg.length; i++) {
@@ -21,3 +21,23 @@ for (let i = 0; i < SmallImg.length; i++) {
     ProductImg.src = SmallImg[i].src;
     };
 };
+
+// --------- js for toggle form ------------
+
+const LoginForm = document.getElementById("LoginForm");
+const RegForm = document.getElementById("RegForm");
+const Indicator = document.getElementById("Indicator");
+
+const Log = document.getElementById("log");
+const Reg = document.getElementById("reg");
+
+Log.addEventListener("click", () => {
+    RegForm.style.transform = "translateX(300px)";
+    LoginForm.style.transform = "translateX(300px)";
+    Indicator.style.transform = "translateX(0px)";
+});
+Reg.addEventListener("click", () => {
+    RegForm.style.transform = "translateX(0px)";
+    LoginForm.style.transform = "translateX(0px)";
+    Indicator.style.transform = "translateX(100px)";
+});
