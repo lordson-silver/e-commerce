@@ -370,6 +370,62 @@ input:focus {
     cursor: pointer;
 }
 
+/* --------------- Cart Page --------------- */
+
+.cart-page {
+    margin: 80px auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+th {
+    text-align: left;
+    padding: 5px 10px;
+    color: var(--white);
+    background: var(--light-orange);
+    font-weight: normal;
+}
+td {
+    padding: 10px 5px;
+}
+td input {
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid var(--light-orange);
+}
+td a {
+    color: var(--light-orange);
+    font-size: 12px;
+}
+td img {
+    width: 80px;
+    margin-right: 20px;
+}
+.total-price {
+    display: flex;
+    justify-content: flex-end;
+    /* margin: 30px 0; */
+}
+.total-price table {
+    width: 100%;
+    max-width: 400px;
+    border-top: 3px solid var(--light-orange);
+}
+td:last-child {
+    text-align: right;
+}
+th:last-child {
+    text-align: right;
+}
+
+
 /* media query for menu */
 
 @media only screen and (max-width: 800px) {
@@ -427,4 +483,8 @@ input:focus {
         font-size: 26px;
         line-height: 32px;
     }
+    .cart-info p {
+        display: none;
+    }
+
 }
